@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.navigation-bar {
+    list-style: none;
+    
+    display: flex;
+    box
+}
