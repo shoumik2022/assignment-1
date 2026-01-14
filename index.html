@@ -1,27 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my first assignment</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./styles.css">
-</head>
-<body class="open-sans">
-    <header>
-        <nav class="navigation-bar">
-           <div> <img src="assets/logo-navbar.png"></div>
-            <ul>
-                <li>Features</li>
-                <li>How It Works</li>
-                <li>Why It's Different</li>
-            </ul>
-            <div><button>Get Early Access</button></div>
 
-        </nav>
-    </header>
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my first assignment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body class="open-sans">
+  <header>
+    <!-- Navigation Bar -->
+    <nav id="navigation-bar">
+      <div>
+        <img src="assets/logo-navbar.png" alt="KV Logo" />
+      </div>
+      <div>
+        <div id="navigation-links">
+          <li style="padding-right: 40px">
+            <a href="#features">Features</a>
+          </li>
+          <li style="padding-right: 40px">
+            <a href="#how-it-works">How It Works</a>
+          </li>
+          <li style="padding-right: 0px">
+            <a href="#why-its-different">Why It's Different</a>
+          </li>
+        </div>
+      </div>
+      <div>
+        <button style="
+              background-color: #30b868;
+              color: white;
+              padding: 10px;
+              border-radius: 10px;
+              font: bold;
+              font-weight: bold;
+              border-color: transparent;
+            ">
+          Get Early Access
+        </button>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <div class="banner" style=" margin: 0;">
+      <div style="padding-top: 0px">
+        <button style="color: #30b868; padding: 5px; border-radius: 20px">
+          <i class="fa-duotone fa-solid fa-circle-dot"></i> Early Access Now
+          Open
+        </button>
+      </div>
+      <div>
+        <h1 style="
+              color: white;
+              padding: 0px;
+              font-weight: bold;
+              font-weight: 900;
+              font-size: 50px;
+              padding: 0%;
+              margin: 0;
+            ">
+          Structured Thinking, <br />
+          <span style="color: #30b868">Not Just Note-Taking.</span>
+        </h1>
+        <p style="color: white; font-weight: 300; font-size: small">
+          <b> A private space to store notes, links and learning summaries ---
+            designed to <br />
+            help you think clearly, connect ideas, and turn learning into
+            long-term knowledge.</b>
+        </p>
+      </div>
+      <div style="padding-top: 20px;">
+        <button style="background-color: #30b868;
+              color: white;
+              padding: 10px;
+              border-radius: 10px;
+              font: bold;
+              
+              font-weight: bold;">Start Building Your Vault
+          <!-- <img src="assets/ArrowRight.png"alt="" style="border: 2px solid blueviolet;"> -->
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button style="background-color: transparent; border-radius: 10px; padding: 10px; color: white;">
+          <i class="fa-solid fa-play"
+            style=" background-color: transparent; padding-right: 4px; padding-left: 4px;"></i> See How It
+          Works</button>
+      </div>
+    </div>
+  </header>
+
+
+  <main style="margin: 0;">
+    <!-- Skills section -->
+    <section id="skills" style="background-color: ghostwhite; margin: 0;">
+      <div id="skills-set" style="text-align: center;">
+        <div >
+        <h2 style="margin-top: 0; padding-top: 20px;">Note doesn't fail,Structure does.</h2>
+        <p>
+          you're not bad at learning.You'r tools just weren't built for how
+          knowledge actually works
+        </p>
+      </div>
+      <div style="display: flex; justify-content: space-between;">
+        <div style=" background-color: white; padding: 20px;">       
+          <div style=" display: flex; justify-content: center;">
+            <div style="height: 60px; width: 60px; background-color:#F95555; border-radius: 50px;
+          display: flex; align-items: center; text-align: center; justify-content: center; ">
+            <img src="/assets/Vector.png" alt=""
+              style="color:#F95555;  height: 40px ; width: 50px; padding-left: 5px;padding-top: 2px;">
+          </div>
+          </div>
+          <h3 style="margin: 0;">Scattered Notes</h3><br>
+          <p style="margin: 0;color: #627382;">your idea lives in 10 different apps <br>none of them are connected </p>
+        </div>
+        <div style=" background-color: white; padding: 20px;">       
+          <div style=" display: flex; justify-content: center;">
+            <div style="height: 60px; width: 60px; background-color:#F95555; border-radius: 50px;
+          display: flex; align-items: center; text-align: center; justify-content: center; ">
+            <img src="assets/Bookmarks.png" alt=""
+              style="color:#F95555;  height: 40px ; width: 50px; padding-left: 5px;padding-top: 2px;">
+          </div>
+          </div>
+          <h3 style="margin: 0;">Bookmark Overload</h3><br>
+          <p style="margin: 0;color: #627382;">Hundred of saved links you'll never <br>Revisit or Remember </p>
+        </div>
+        <div style=" background-color: white; padding: 20px;">       
+          <div style=" display: flex; justify-content: center;">
+            <div style="height: 60px; width: 60px; background-color:#F95555; border-radius: 50px;
+          display: flex; align-items: center; text-align: center; justify-content: center; ">
+            <img src="/assets/Brain.png" alt=""
+              style="color:#F95555;  height: 40px ; width: 50px; padding-left: 5px;padding-top: 2px;">
+          </div>
+          </div>
+          <h3 style="margin: 0;">No Idea Connections</h3><br>
+          <p style="margin: 0;color: #627382;">Insights stay isolated,never<br>building into bigger understandings</p>
+        </div>
+        <div style=" background-color: white; padding: 20px;">       
+          <div style=" display: flex; justify-content: center;">
+            <div style="height: 60px; width: 60px; background-color:#F95555; border-radius: 50px;
+          display: flex; align-items: center; text-align: center; justify-content: center; ">
+            <img src="/assets/Info.png" alt=""
+              style="color:#F95555;  height: 40px ; width: 50px; padding-left: 5px;padding-top: 2px;">
+          </div>
+          </div>
+          <h3 style="margin: 0;">Forgetting What,<br>You Learned</h3><br>
+          <p style="margin: 0;color: #627382;">knowledge fades because there's <br>no system to retain it </p>
+        </div>
+
+
+       
+      </div>
+      </div>
+     
+    </section>
+
+
+
+    <!-- Then Main Part Solution -->
+    <div class="solution" style=" padding: 120px; gap: 40px;">
+      <div>
+        <img src="assets/knowledge.png" alt="">
+      </div>
+      <div id="texts-main">
+        <p style="color: #30b868;  margin: 0;">THE SOLUTION</p>
+        <p style="font-weight: 800;font-size: 50px;margin: 0; "><b>Your Second Brain,<br>Structured By Design.</b></p>
+        <p style="color: #627382;  margin-top: 10px;">
+          Personal note taking isn't note taking app.It's a thinking environment
+          where every note,link,and summary becomes part of an interconnected web of
+          understanding.
+        </p>
+        <div style="display: flex; align-items: center; justify-items: center; margin: 0;">
+          <img src="assets/CheckCircle.png" alt="" style="width: 20px ; height: 20px;">
+          <p>Capture ideas with build in structure day 1 </p>
+        </div>
+        <div style="display: flex; align-items: center; justify-items: center; margin: 0; ">
+          <img src="assets/CheckCircle.png" alt="">
+          <p> Connect relatedconcept autometicallyas you write</p>
+        </div>
+        <div style="display: flex; align-items: center; justify-items: center;">
+          <img src="assets/CheckCircle.png" alt="">
+          <p> Build lasting knowledge through reflection prompts</p>
+        </div>
+        <div style="display: flex; align-items: center; justify-items: center;">
+          <img src="assets/CheckCircle.png" alt="">
+          <p> Find anything with semantic search</p>
+        </div>
+
+      </div>
+    </div>
+    <!-- Part Before Ending  -->
+    <div class="before-ending">
+      <p style="font-weight: 400;font-size: xx-large;  margin: 0;"><b>Ready To Think More Clearly?</b></p>
+      <p style="color: #627382; font-weight:400 ;">Join thousand of learners who are building their personal knowledge
+        vaults. <br>Start free, no credit card required.</p>
+
+      <button style="background-color: #469165;
+              color: white;
+              padding: 10px;
+              border-radius: 10px;
+              font: bold;
+              border-color: transparent;
+              font-weight: bold;">Get Early Access
+        <!-- <img src="assets/ArrowRight.png"alt="" style="border: 2px solid blueviolet;"> -->
+        <i class="fa-solid fa-arrow-right" style="padding-left: 5px;"></i>
+      </button>
+      <p style="color: #627382" font-weight=400>Free during early access
+        <i class="fa-solid fa-circle"></i>
+        No credit card needed
+      </p>
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer style="background-color:#001931; border: 2px solid #001931">
+    <div class="footer">
+      <div>
+        <img src="assets/logo-footer.png" alt="">
+      </div>
+      <div style="padding-right: 50px;">
+        <h4 style="color: white; font-weight: normal;">Social Links</h4>
+        <i class="fa-jelly fa-regular fa-circle-xmark" style="color: white;"></i>
+        <i class="fa-brands fa-linkedin" style="color: white; padding-left: 5px;"></i>
+        <i class="fa-brands fa-facebook" style="color: white; padding-left: 5px;"></i>
+      </div>
+    </div>
+    <p style="color: white; text-align: center; border-top: 2px solid gray;
+    margin-right: 120px; margin-left: 120px; padding-top: 20px; padding-bottom: 20px;">&copy;2026 personal knowledge
+      vault.All rights reserved</p>
+
+  </footer>
 </body>
+
 </html>

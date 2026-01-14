@@ -1,13 +1,81 @@
-body{
+body {
     background-color: white;
+    margin: 0;
+    /* padding: 5px; */
+    align-items: center;
 }
+
 .open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
-.navigation-bar {
-    list-style: none;
-    
+
+/* Navigation Bar */
+#navigation-bar {
     display: flex;
-    box
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px 0px 120px;
+}
+
+#navigation-links {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font: bold;
+}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+.banner {
+    /* border: 2px solid blueviolet; */
+    text-align: center;
+    padding: 120px;
+    background-image: url("./assets/hero-bg.png");
+    margin-bottom: 0;
+}
+
+.solution {
+    display: flex;
+
+}
+
+#texts-main {
+    align-content: center;
+}
+
+.before-ending {
+    background-color: #F7F6F2;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-top: 50px;
+    background-color: #001931;
+    margin-bottom: 50px;
+
+}
+#skills{
+    margin: 0;
+}
+#skills-set{
+    
+margin-right: 120px;
+    margin-left: 120px;
 }
