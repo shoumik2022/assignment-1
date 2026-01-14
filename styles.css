@@ -79,3 +79,15 @@ a:active {
 margin-right: 120px;
     margin-left: 120px;
 }
+.button-hover{
+    color: white;
+}
+.button-hover:hover{
+    color:grey;
+}
+.button-hover-now{
+    color: #30b868;
+}
+.button-hover-now:hover{
+    color:grey;
+}
